@@ -36,7 +36,7 @@
     - 一部はガラケーサイトも作成
     - [群馬県大気汚染情報](http://gunma-taiki.sakura.ne.jp)
     - [長野県大気汚染情報](http://nagano-taiki.sakura.ne.jp)
-    - [福井県大気汚染情報](http://www.erc.pref.fukui.jp/tm/) ：サーバー原因でphpが動かずaspに書き換え案件
+    - [福井県大気汚染情報](http://www.erc.pref.fukui.jp/tm/) サーバー原因でphpが動かずaspに書き換え案件
     - [石川県の大気環境情報](http://ishikawa-taiki.sakura.ne.jp)
     - [京都市大気常時監視情報](http://www.kyoto-city-taiki.jp)
     - [東大阪市大気環境情報](http://kankyo-higashiosaka-city.jp)
@@ -48,6 +48,10 @@
     - [京都府 大気常時監視情報](http://www.taiki.pref.kyoto.jp)
     - ベトナム・フーコック
     - [和歌山県の大気環境](http://taiki.pref.wakayama.lg.jp/data/koumoku.php)
+- 某自立支援センターの管理システム
+    - cakephp
+    - AWS
+
 
 ## 職務経歴
 
