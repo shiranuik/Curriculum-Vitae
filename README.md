@@ -30,15 +30,15 @@
     - サーバー移転先選定お手伝い
 - 区役所向け環境指導総合システム（VB）
 - 県庁ならびに市区町村の大気情報サイト
-    - 主としてPHP（フレームワーク無）/JavaScript
+    - 主としてPHP（フレームワーク無）/JavaScript
     - DB設計～公開まで（デザイン全般は別の方です！）
-    - チャートライブラリ（highchart.js、googleのグラフAPIとか）も利用。
-    - 一部はガラケーサイトも作成
-    - [群馬県大気汚染情報](http://gunma-taiki.sakura.ne.jp)
+    - チャートライブラリ（highchart.js、googleのグラフAPIとか）も利用。
+    - 一部はガラケーサイトも作成
+    - [群馬県大気汚染情報](http://gunma-taiki.sakura.ne.jp)
     - [長野県大気汚染情報](http://nagano-taiki.sakura.ne.jp)
-    - [福井県大気汚染情報](http://www.erc.pref.fukui.jp/tm/) 
+    - [福井県大気汚染情報](http://www.erc.pref.fukui.jp/tm/) 
         - サーバー原因でphpが動かずaspに書き換え案件
-    - [石川県の大気環境情報](http://ishikawa-taiki.sakura.ne.jp)
+    - [石川県の大気環境情報](http://ishikawa-taiki.sakura.ne.jp)
     - [京都市大気常時監視情報](http://www.kyoto-city-taiki.jp)
     - [東大阪市大気環境情報](http://kankyo-higashiosaka-city.jp)
     - [茨木市大気環境情報](http://www.ibaraki-kankyo.jp)
