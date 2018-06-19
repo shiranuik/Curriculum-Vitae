@@ -30,10 +30,11 @@
     - サーバー移転先選定お手伝い
 - 区役所向け環境指導総合システム（VB）
 - 県庁ならびに市区町村の大気情報サイト
-    - 主としてPHP（フレームワーク無）/JavaScript
+    - 主としてPHP（フレームワーク無）/JavaScript（jQuery）
     - DB設計～公開まで（デザイン全般は別の方です！）
     - チャートライブラリ（highchart.js、googleのグラフAPIとか）も利用。
     - 一部はガラケーサイトも作成
+    - 基本はさくらの共有サーバースタンダードを利用。稼働中のサーバー移動案件も有。
     - [群馬県大気汚染情報](http://gunma-taiki.sakura.ne.jp)
     - [長野県大気汚染情報](http://nagano-taiki.sakura.ne.jp)
     - [福井県大気汚染情報](http://www.erc.pref.fukui.jp/tm/) 
@@ -77,7 +78,10 @@
 
 - 開発環境
     - PHP（PHP5.3＋Cakephp2 , Slim + PHP7.2）
-    - JavaScript（Vue.js , jQuery）
+    - JavaScript（Vue.js , Quasar , jQuery）
+        - VueベースにQuasarを載せてVuexとVueRouterを利用、サーバーとの通信はAxios。
+        - Axiosのラッパーを作りVuex側に通信を処理を集中させた。
+        - 移行過渡期のため、Cakeの上に上記vueのSPAが乗る形になるのでその調整も含む。
     - MySQL
 - 業務内容
     - 開発
