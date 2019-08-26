@@ -36,6 +36,7 @@
     - チャートライブラリ（highchart.js、googleのグラフAPIとか）も利用。
     - 一部はガラケーサイトも作成
     - 基本はさくらの共有サーバースタンダードを利用。稼働中のサーバー移動案件も有。
+    - [熊本県の大気環境の状況](http://kumamoto-taiki.sakura.ne.jp)
     - [群馬県大気汚染情報](http://gunma-taiki.sakura.ne.jp)
     - [長野県大気汚染情報](http://nagano-taiki.sakura.ne.jp)
     - [福井県大気汚染情報](http://www.erc.pref.fukui.jp/tm/) 
@@ -51,6 +52,10 @@
     - [京都府 大気常時監視情報](http://www.taiki.pref.kyoto.jp)
     - ベトナム・フーコック
     - [和歌山県の大気環境](http://taiki.pref.wakayama.lg.jp/data/koumoku.php)
+- 大気情報管理サイト並びに汎用公開画面
+    - 上記自治体向けのサイトをもっと汎用的にしたもの
+    - API:PHP（Slim）
+    - 画面：Vue.js
 - 某自立支援センターの管理システム
     - cakephp
     - AWS
